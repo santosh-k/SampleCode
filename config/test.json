@@ -1,0 +1,52 @@
+{
+    "SECRET": {
+        "ADMIN_JWT_SECRET": "admin_service_3sd%#fsr232!$%#yrtyezdev_secret",
+        "CATALOG_JWT_SECRET": "admin_service_3sd%#fsr232!$%#yrtyezdev_secret",
+        "USER_JWT_SECRET": "admin_service_3sd%#fsr232!$%#yrtyezdev_secret",
+        "PRODUCT_JWT_SECRET": "admin_service_3sd%#fsr232!$%#yrtyezdev_secret",
+        "EMAIL_JWT_SECRET": "admin_service_3sd%#fsr232!$%#yrtyezdev_secret",
+        "CMS_JWT_SECRET": "admin_service_3sd%#fsr232!$%#yrtyezdev_secret",
+        "FRONT_JWT_SECRET": "front_service_hud%^$##@33454FTT65r53eg6a356",
+        "SENDGRID_API_KEY": "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",
+        "SENDGRID_SEND_EMAIL": "prajjval.sparxit@gmail.com",
+        "CLIENT_ID": "sparx-it",
+        "CLIENT_SECRET": "1234656",
+        "BUCKET_NAME": "sis1037",
+        "AWS_ACCESS_KEY_ID": "AKIARPELQCLSOPRCKBG2",
+        "AWS_SECRET_ACCESS_KEY": "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"
+    },
+    "PORT": 4000,
+    "dbConfig": {
+        "MONGO_URL": "mongodb://127.0.0.1:27017/",
+        "DB_NAME": "carorbis_user"
+    },
+    "frontend": {
+        "SITENAME": "Carorbis",
+        "FOOTER": "Copyright Carorbis",
+        "site_url": "http://localhost:4000/",
+        "LOGO": "/assets/images/logo.png",
+        "FAVICON": "/assets/images/favicon.ico"
+    },
+    "email": {
+        "global": {
+            "from": "no-reply@webbycentral.xyz"
+        },
+        "auth": {
+            "host": "email-smtp.us-east-2.amazonaws.com",
+            "port": 465,
+            "user": "AKIAV5LTCJN4NVC7BA74",
+            "pass": "BHViDMhmBpqLxIH5XhAJOgKrTpHRnOzpctnqmGik0kJE"
+        }
+    },
+    "url": {
+        "site_url": "http://localhost:4000"
+    },
+    "service_endpoints": {
+        "endpoint": "http://localhost:4000",
+        "email_service": "http://localhost:8000/api/v1/"
+    },
+    "path": {
+        "upload_path": "/uploads",
+        "AWS_BASE_URL": "https://caraorbis.s3.amazonaws.com/"
+    }
+}

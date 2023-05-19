@@ -1,0 +1,53 @@
+{
+    "SECRET": {
+        "ADMIN_JWT_SECRET": "000000000",
+        "CATALOG_JWT_SECRET": "000000000",
+        "USER_JWT_SECRET": "00000",
+        "PRODUCT_JWT_SECRET": "",
+        "EMAIL_JWT_SECRET": "",
+        "CMS_JWT_SECRET": "0000000",
+        "FRONT_JWT_SECRET": "00000",
+        "SERVICE_SECRET_KEY":"s0000000",
+        "SENDGRID_API_KEY": "000000",
+        "SENDGRID_SEND_EMAIL": "email@gmail.com",
+        "CLIENT_ID": "sparx-it",
+        "CLIENT_SECRET": "000000000",
+        "BUCKET_NAME": "0000000",
+        "AWS_ACCESS_KEY_ID": "0000000",
+        "AWS_SECRET_ACCESS_KEY": "000000"
+    },
+    "PORT": 4000,
+    "dbConfig": {
+        "MONGO_URL": "00000000000",
+        "DB_NAME": "0000000000"
+    },
+    "frontend": {
+        "SITENAME": "Carorbis",
+        "FOOTER": "Copyright Carorbis",
+        "site_url": "000000/",
+        "LOGO": "/assets/images/logo.png",
+        "FAVICON": "/assets/images/favicon.ico"
+    },
+    "email": {
+        "global": {
+            "from": "no-reply@webbycentral.xyz"
+        },
+        "auth": {
+            "host": "email-smtp.us-east-2.amazonaws.com",
+            "port": 465,
+            "user": "user",
+            "pass": "passs"
+        }
+    },
+    "url": {
+        "site_url": "http://localhost:4000"
+    },
+    "service_endpoints": {
+        "endpoint": "http://localhost:4000",
+        "email_service": "http://localhost:10000/api/v1/"
+    },
+    "path": {
+        "upload_path": "/uploads",
+        "AWS_BASE_URL": "https://caraorbis.s3.amazonaws.com/"
+    }
+}
